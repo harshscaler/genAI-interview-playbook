@@ -1,4 +1,4 @@
-# 🚀 Scaler GenAI Placement Prep — July 2026
+# 🚀 GenAI Placement Prep 
 
 > A student-ready GenAI / LLM interview prep hub focused on what companies ask, what students should build, and which resources to use.
 
