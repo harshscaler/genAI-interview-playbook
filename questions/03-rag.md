@@ -4,6 +4,75 @@
 
 ---
 
+## RAG Interview Prep: What Can Be Asked and What You Should Do
+
+### What is RAG?
+
+RAG (Retrieval-Augmented Generation) is a method where an LLM first retrieves relevant information from an external source and then uses that retrieved context to generate a grounded answer.
+
+It is useful when you want to:
+- reduce hallucinations
+- use private or recent data
+- make responses more accurate and explainable
+
+### What interviewers usually ask about RAG
+
+Common questions include:
+- What is RAG and why was it created?
+- How does a RAG pipeline work step by step?
+- What are the different types of RAG?
+- What are the tradeoffs between simple and advanced RAG?
+- How do you improve retrieval quality?
+- How do you reduce hallucinations in RAG?
+- How would you design a RAG system for a chatbot or enterprise search tool?
+
+### What you should be ready to explain
+
+You should be able to talk about:
+1. **Ingestion** — where the source documents come from.
+2. **Chunking** — how documents are split into smaller pieces.
+3. **Embedding and indexing** — how content is converted and stored for retrieval.
+4. **Retrieval** — how relevant chunks are found for a query.
+5. **Ranking / re-ranking** — how the best results are selected.
+6. **Generation** — how the LLM uses the retrieved context to answer.
+7. **Evaluation** — how you measure faithfulness, relevance, latency, and cost.
+
+### Types of RAG
+
+| Type | Description | Best Use Case |
+|---|---|---|
+| **Naive RAG** | Basic retrieve-then-generate flow using chunking, embeddings, and vector search. | Simple prototypes and baseline systems |
+| **Advanced RAG** | Adds query rewriting, hybrid search, metadata filtering, re-ranking, and context compression. | Production systems that need better accuracy |
+| **Modular RAG** | Uses separate modules like retrievers, rerankers, memory, tools, and planners. | Complex workflows and enterprise applications |
+| **Graph RAG** | Uses relationships between entities to retrieve connected knowledge. | Multi-hop reasoning and knowledge discovery |
+| **Agentic RAG** | Uses an agent to decide when and how to retrieve information. | Dynamic and tool-driven systems |
+
+### Tradeoffs to mention in interviews
+
+| Area | Tradeoff |
+|---|---|
+| **Chunk size** | Smaller chunks are more specific, but larger chunks preserve better context. |
+| **Accuracy vs latency** | Better retrieval usually increases response time and cost. |
+| **Recall vs precision** | More retrieval can improve recall but also introduce noise. |
+| **Simple vs advanced architecture** | Simpler systems are easier to build, but advanced systems are more robust. |
+| **Keyword vs vector search** | Keyword search is precise for exact terms, while vector search is better for semantic meaning. |
+
+### What you can do in practice
+
+To show strong understanding, you can describe how you would:
+- start with a simple baseline RAG system
+- test chunking strategies on sample documents
+- compare keyword search, vector search, and hybrid search
+- add reranking for better retrieval quality
+- evaluate answers using faithfulness, relevance, and latency metrics
+- improve the system by adding metadata filters, caching, or guardrails
+
+### Interview-ready takeaway
+
+A strong answer should show that RAG is not just about putting documents into a prompt. It is a full system design and product problem involving retrieval quality, chunking, indexing, ranking, prompting, evaluation, and tradeoffs.
+
+---
+
 ## Questions & Answers
 
 **Q1. What is RAG and why was it developed?**

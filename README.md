@@ -19,6 +19,8 @@ scaler-genai-placement-prep/
 │   ├── 05-system-design.md
 │   ├── 06-production-cost-latency.md
 │   └── 07-hr-round.md
+├── rag/                             ← Dedicated RAG study material
+│   └── README.md
 └── resources/                       ← Learning resources and project ideas
     ├── README.md
     ├── github-repos.md
@@ -47,6 +49,7 @@ scaler-genai-placement-prep/
 ### Most important files
 - `questions/README.md` — GenAI question bank overview
 - `questions/03-rag.md` — RAG pipeline questions (highest priority)
+- `rag/README.md` — dedicated RAG concepts, system design, and tradeoffs guide
 - `questions/04-agents.md` — agent and orchestration questions
 - `questions/07-hr-round.md` — HR AI tool fluency questions
 - `resources/documentation.md` — official docs for Agent SDKs and vector databases
