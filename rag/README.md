@@ -90,6 +90,9 @@ A production-grade RAG system is not just "search + LLM". It is a full pipeline 
 
 ## 4. Resources you should study for RAG
 
+### Practical deep dive
+- [advanced-rag-strategies.md](advanced-rag-strategies.md) — a concise summary of the main advanced RAG patterns from the referenced repository, including re-ranking, agentic RAG, contextual retrieval, query expansion, multi-query retrieval, hierarchical RAG, self-reflective RAG, and fine-tuned embeddings.
+
 ### Official documentation
 - LlamaIndex documentation for RAG patterns and retrieval pipelines
 - LangChain and LangGraph documentation for orchestration and agentic workflows
